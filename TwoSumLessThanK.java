@@ -13,6 +13,19 @@ Note:
 1 <= A[i] <= 1000
 1 <= K <= 2000
 */
+
+/**
+Sort the array. Use two pointers pointing at head and tail. Calculate the sum.
+
+If sum < K, update res and l++ to increase sum.
+
+Otherwise, r-- to decrease sum.
+
+Time Complexity: O(nlogn). n = A.length.
+
+Space: O(1).
+*/
+
 import java.util.Arrays;
 
 public class TwoSumLessThanK{
